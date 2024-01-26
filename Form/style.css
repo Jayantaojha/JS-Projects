@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+
+#display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: cursive;
+
+}
+
+h3{
+    color: grey;
+    font-family: cursive;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+form{
+    height: 400px;
+    width: 600px;
+    background-image: url("https://www.tusktravel.com/blog/wp-content/uploads/2021/07/Darjeeling2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+form input{
+    background-color: rgb(130, 230, 222);
+    font-family: cursive;
+    font-size: medium;
+}
+
+form input:hover{
+    background-color: rgb(21, 103, 96);
+    color: white;
+}
+
+form input,button{
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 10px;
+    border: none;
+    margin: 8px;
+}
+
+form button{
+    background-color: rgb(62, 143, 197);
+    font-family: cursive;
+    font-size: medium;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(9, 56, 88);
+    color: white;
+}

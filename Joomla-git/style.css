@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav1 start */
+#nav1 {
+    height: 50px;
+    background-color: #152845;
+    color: #fff;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav1-left {
+    margin-left: 30px;
+}
+
+#nav1-left ul {
+    display: flex;
+    padding: 12px;
+
+}
+
+#nav1-left ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    border-right: 1.4px solid #1e3b63;
+    padding-right: 10px;
+    cursor: pointer;
+
+}
+
+#nav1-right input {
+    font-size: 15px;
+    padding: 11px;
+}
+
+/* nav1 end */
+
+/* nav2 start */
+
+#joomla-logo {
+    margin-right: 10px;
+}
+
+#nav2 {
+    height: 70px;
+    background-color: #184a7d;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#nav2-left h1 {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: start;
+    padding-right: 450px;
+}
+
+#nav2-right button {
+    font-size: 20px;
+    padding: 8px 60px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#download-button {
+    background-color: #ffca2c;
+    border: none;
+}
+
+#download-button:hover{
+    background-color: #ba9115;
+}
+
+#launch-button {
+    background-color: #0b5ed7;
+    color: white;
+    border: none;
+}
+
+#launch-button:hover{
+    background-color: #7598cc;
+    color: black;
+}
+
+/* nav2 end */
+
+/* nav3 start */
+#nav3 {
+    background-color: #2468a4;
+    color: white;
+    height: 42px;
+    text-align: center;
+}
+
+#nav3 ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    justify-content: start;
+    align-items: center;
+    padding-left: 160px;
+    padding-top: 8px;
+}
+
+#nav3 ul li {
+    margin-right: 26px;
+    font-weight: 600;
+}
+
+#nav3 ul li:hover{
+    cursor: pointer;
+    color: #152845;
+}
+
+/* nav3 end */
+
+
+/* main starts */
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+    background-image: url('main-image.jpg');
+    background-repeat: no-repeat;
+    padding: 50px 30px;
+}
+
+main h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+}
+
+main>p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#main-article {
+    margin-top: 70px;
+    display: flex;
+    padding: 10px;
+}
+
+.article {
+    text-align: center;
+    margin-left: 60px;
+    height: 220px;
+    width: 310px;
+    background-color: white;
+    margin-right: 25px;
+    padding: 20px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+
+.article i {
+    font-size: 25px;
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 11px;
+    margin-left: 120px;
+}
+
+.article h2 {
+    font-size: 28px;
+}
+
+.article p {
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+
+#article1 i{
+    background-color: #89c764;
+}
+
+#article2 i{
+    background-color: #5091cd;
+}
+
+#article3 i{
+    background-color: #f27042;
+}
+
+.small-article {
+    font-size: 18px;
+    height: 60px;
+    width: 83%;
+    margin-left: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#article1-1 {
+    background-color: #89c764;
+}
+
+
+#article2-2 {
+    background-color: #5091cd;
+}
+
+#article3-3 {
+    background-color: #f27042;
+}
+
+/* main ends */
